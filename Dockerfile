@@ -5,7 +5,7 @@ ARG debian_version
 ARG rakudo_version
 
 LABEL maintainer="Geoffrey Broadwell"
-# LABEL org.opencontainers.image.source=https://github.com/japhb/...
+LABEL org.opencontainers.image.source=https://github.com/Raku-MUGS/rakudo-zef
 
 # Install required build packages and build/install Rakudo+Zef to /opt/rakudo
 RUN apt-get update \
